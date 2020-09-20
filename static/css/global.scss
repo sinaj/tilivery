@@ -1,0 +1,100 @@
+@import "variables";
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-10 {
+  margin-bottom: 1rem;
+}
+
+.mb-15 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
+.mb-25 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-30 {
+  margin-bottom: 3rem;
+}
+
+.mb-35 {
+  margin-bottom: 3.5rem;
+}
+
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
+.mb-45 {
+  margin-bottom: 4.5rem;
+}
+
+.mb-50 {
+  margin-bottom: 5rem;
+}
+
+.pb-100 {
+  padding-bottom: 10rem !important;
+}
+
+.color-main {
+  color: #c51399 !important;
+}
+
+.color-secondary {
+  color: #0a96a5 !important;
+}
+
+.color-title {
+  color: #505050 !important;
+}
+
+.color-text {
+  color: #666 !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.align-row > * {
+  align-self: center;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.row > div {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.title-thin {
+  font-weight: 100;
+  line-height: 3rem;
+}
+
+.title-light {
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+.border {
+  border: solid !important;
+}
