@@ -20,6 +20,7 @@ from web import views
 
 urlpatterns = [
     re_path(r'^$', views.homepage_view, name="home"),
+    re_path(r'^privacy/$', views.privacy_view, name="privacy"),
     re_path(r'^thank-you/$', views.thank_you_view, name="thank_you"),
     re_path(r'^sms/received/$', views.sms_received_handler),
     path('admin/', admin.site.urls),

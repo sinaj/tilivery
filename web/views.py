@@ -50,6 +50,10 @@ def thank_you_view(request):
     return render(request, "thank_you.html", request.context)
 
 
+def privacy_view(request):
+    return HttpResponseRedirect("https://www.privacypolicygenerator.info/live.php?token=omWgU7pTEWEqM8Bv7upmaV0JjlXmDkmH")
+
+
 @csrf_exempt
 def sms_received_handler(request):
     resp = MessagingResponse()
